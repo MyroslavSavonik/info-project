@@ -6,8 +6,8 @@ import myPhoto2 from "../images/my_photo2.jpg"
 export default function Home() {
     return (
         <div className={"homeDiv"}>
-            <img src={myPhoto} id = "image1"></img>
-            <img src={myPhoto2} id = "image2"></img>
+            <img src={myPhoto} id = "image1" alt = "photo"></img>
+            <img src={myPhoto2} id = "image2" alt = "photo"></img>
             <h1>{resumeData.name}</h1>
             <ul className={"contacts"}>
                 {resumeData.contacts.map((c, i) => <li key={i}>{c}</li>)}
