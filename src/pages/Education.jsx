@@ -6,9 +6,9 @@ export default function Education() {
         <div>
             {resumeData.education.map((edu, i) => (
                 <div key={i} className={"educationDiv"}>
-                    <h3>{edu.degree}</h3>
+                    <a href = {edu.link}><h3>{edu.degree}</h3>
                     <h3>{edu.school}</h3>
-                    <p>{edu.years}</p>
+                    <p>{edu.years}</p></a>
                 </div>
             ))}
         </div>
