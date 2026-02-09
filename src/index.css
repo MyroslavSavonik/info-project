@@ -91,6 +91,7 @@ nav a{
 .educationDiv{
   margin-top:30px;
   margin-bottom: 30px;
+  transition: background-color 0.1s;
 }
 .contacts{
   display: flex;
@@ -126,4 +127,8 @@ nav a{
   bottom: 15px;
   width: 15vw;
   border-radius: 15px;
+}
+.educationDiv:hover{
+  background-color: black;
+  color: green;
 }
